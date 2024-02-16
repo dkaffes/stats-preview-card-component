@@ -38,6 +38,7 @@ body {
 .image-img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
   opacity: 0.5;
   mix-blend-mode: multiply;
 }
@@ -113,6 +114,10 @@ body {
   .image-box {
     grid-column: 2/-1;
     grid-row: 1/-1;
+  }
+
+  .image-img {
+    height: 100%;
   }
 
   .text-stats-box {
